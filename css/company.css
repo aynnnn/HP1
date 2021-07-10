@@ -1,0 +1,48 @@
+.body {
+  width: 100%;
+  height: auto;
+}
+
+.block {
+  width: 50%;
+  float: right;
+  margin-top: 10%;
+  position: relative;
+}
+
+.company {
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+}
+
+ .company_iiner {
+  margin-top: 50px;
+} 
+
+.company_list {
+  width: 80%;
+  margin: 0 auto 150px;
+}
+.company_list li {
+  display: flex;
+  margin-bottom: 30px;
+}
+.company_list li span {
+  width: 20%;
+  margin-right: 3%;
+  padding: 0 0 30px 20px;
+  border-bottom: 1px solid coral;
+  font-size: 30px;
+}
+.company_list li p {
+  width: 80%;
+  padding: 0 0 30px 20px ;
+  border-bottom: 1px solid rgb(233, 145, 113);
+  font-size: 20px;
+}
+
+.company_list p a {
+  color: #75645c;
+} 
+

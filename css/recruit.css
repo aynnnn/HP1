@@ -1,0 +1,178 @@
+.top_inner h1 {
+  width: 100%;
+  position: absolute;
+  font-size: 40px;
+  color: #ff8856;
+  top: 100px;
+  line-height: 1;
+  text-align: center;
+  z-index: 0;
+}
+
+.top_inner small {
+  font-size: 20px;
+  color: #ff8856;
+}
+
+.recruit_top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.recruit_top ul {
+  display: inline-flex;
+  padding: 50px 0;
+}
+
+.recruit_top li {
+  text-align: center;
+  padding: 50px;
+  margin-top: 200px;
+}
+
+.recruit_top li a {
+  color: #555;
+}
+
+.recruit_top li a:hover {
+  opacity: 0.5;
+}
+
+.recruit_top li small {
+  color: #ff8856;
+}
+
+#recruit_list1,
+#recruit_list2,
+#recruit_list3 {
+  display: inline-block;
+}
+
+.recruit_list {
+  width: 100%;
+}
+
+.recruit_list h1 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #555;
+  line-height: 0.8;
+  padding-bottom: 7%;
+}
+
+.recruit_list h1 small {
+  font-size: 12px;
+  color: #ff8856;
+}
+
+.recruit_list h2 {
+  font-size: 20px;
+  color: #555;
+  font-weight: normal;
+  padding-bottom: 7%;
+}
+
+.recruit_list p {
+  width: 80%;
+  font-size: 12px;
+  color: #555;
+  letter-spacing: 3px;
+  line-height: 2.6;
+}
+
+.recruit_item1 {
+  width: 40%;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.recruit_item1 img {
+  width: 100%;
+  border-radius: 45%;
+}
+
+.recruit_item2 {
+  width: 50%;
+  float: right;
+  margin-top: 10%;
+  position: relative;
+  z-index: 2;
+}
+
+.recruit_item2 h2 {
+  font-size: 35px;
+  color: rgb(243, 67, 67);
+  font-weight: 700;
+}
+
+.recruit_item2 h3 {
+  color: #eee;
+}
+.recruit_item2 p {
+  color: #eee;
+}
+
+.recruit_item1_reverse {
+  width: 40%;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  float: right;
+  overflow: hidden;
+
+}
+
+.recruit_item2_reverse {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  margin-top: 10%;
+  position: relative;
+  z-index: 2;
+  margin-left: 10%;
+}
+
+.recruit_bg {
+  background: rgb(243, 67, 67);
+  width: 85%;
+  height: auto;
+  float: right;
+  position: relative;
+  bottom: 200px;
+  z-index: 0;
+  border-radius: 45%;
+}
+
+.recruit_element {
+  padding: 30% 0 5%;
+}
+
+.recruit_element p {
+  font-size: 150px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  float: right;
+}
+
+
+.intern_intro {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 80px;
+  padding: 150px 0;
+  margin: auto;
+}
+
+#recruit_list3 {
+  width: 70%;
+  height: auto;
+  left: 15%;
+  border: 3px solid;
+  border-color: #ff8856;
+}
