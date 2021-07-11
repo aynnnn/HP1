@@ -19,6 +19,7 @@
 }
 
 .header_inner nav ul li {
+  width: 80%;
   padding: 15px 30px;
 }
 
@@ -42,6 +43,7 @@
   position: relative;
   top: 75px;
   background-color: rgba(0, 0, 0, 0.699);
+  overflow: hidden;
 }
 .top_inner img {
   width: 900px;

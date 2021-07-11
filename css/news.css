@@ -16,7 +16,7 @@
   margin-top: 50px;
 }
 .news_inner h1 {
-  width: 70%;
+  width: 80%;
   position: absolute;
   font-size: 40px;
   color: #672fff;
@@ -38,12 +38,13 @@
 .news_list li {
   display: flex;
   margin-bottom: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   border-bottom: 1px solid #ddd;
 }
 
 .news_list li img {
-  width: 80px;
+  width: 35px;
+  padding: 1px;
   margin: 0;
 }
 
